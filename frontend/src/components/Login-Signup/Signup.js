@@ -93,34 +93,26 @@ export default function Signup({ history }) {
         className = "form-control sgnUp"
         onChange = {
             (e) => handleChangeEvent(e, "email") }
-        /> <
-        /div> <
+        /> </div> <
         div class = "form-group2" >
-        <
-        label htmlFor = "mob-number" > Mobile - No.: < /label> <
+        <label htmlFor = "mob-number" > Mobile - No.: </label> <
         input required id = "mob-number"
         type = "text"
         className = "form-control sgnUp"
         onChange = {
             (e) => handleChangeEvent(e, "mobile") }
-        /> <
-        /div> <
-        div class = "form-check form-check-inline rd" >
-        <
-        input required class = "form-check-input"
+        /> </div> <div class = "form-check form-check-inline rd" >
+        <input required class = "form-check-input"
         type = "radio"
         id = "Male"
         name = "gender"
         value = "Male"
         onChange = {
             (e) => handleChangeEvent(e, "gender") }
-        /> <
-        label class = "form-check-label"
+        /> <label class = "form-check-label"
         htmlFor = "Male" >
-        Male <
-        /label> <
-        /div> <
-        div class = "form-check form-check-inline rd" >
+        Male </label> </div> 
+        <div class = "form-check form-check-inline rd" >
         <
         input required class = "form-check-input"
         type = "radio"
@@ -129,30 +121,24 @@ export default function Signup({ history }) {
         value = "Female"
         onChange = {
             (e) => handleChangeEvent(e, "gender") }
-        /> <
-        label class = "form-check-label"
+        /> <label class = "form-check-label"
         htmlFor = "Female" >
-        Female <
-        /label> <
-        /div> <
-        div class = "form-group2" >
-        <
-        label htmlFor = "password" > Password: < /label> <
+        Female </label> </div>
+        <div class = "form-group2" >
+        <label htmlFor = "password" > Password: </label> <
         input required id = "password"
         type = "password"
         className = "form-control sgnUp"
         onChange = {
             (e) => handleChangeEvent(e, "password") }
-        /> <
-        /div> <
-        div class = "form-group2" >
+        /> </div> 
+        <div class = "form-group2" >
         <
         input required type = "submit"
         value = "submit"
         className = "btn-primary btnn form-submit sub-btn sgnUp" /
         >
-        <
-        /div> <
+        </div> <
         div >
         <
         small className = "form-text text-muted link-text" >
